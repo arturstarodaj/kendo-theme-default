@@ -115,6 +115,19 @@
     .k-flip-v { transform: scaleY(-1); }
     .k-flip-h.k-flip-v { transform: scale(-1, -1); }
 
+
+    // Horizontal rule
+    .k-hr {
+        margin: ($spacer-y / 2) auto;
+        padding: 0;
+        height: 0;
+        border-width: 1px 0 0;
+        border-style: solid;
+        display: block;
+        float: none;
+        clear: both;
+    }
+
 }
 
 
@@ -247,6 +260,12 @@
     // Empty state
     .k-state-empty {
         font-style: italic;
+    }
+
+
+    // Horizontal rule
+    .k-hr {
+        border-color: $panel-border;
     }
 
 }
